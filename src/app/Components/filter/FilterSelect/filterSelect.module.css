@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 20px 40px;
+}
+
+.background {
+    width: 154.759px;
+    height: 63.298px;
+    border-radius: 4px;
+    background: #000;
+    display: flex;
+    transform: rotate(2deg);
+    padding: 8px 16px;
+    align-items: center;
+    z-index: 1;
+}
+
+.backgroundTxt {
+    display: inline-flex;
+    transform: rotate(-6deg);
+    padding: 8px 16px;
+    margin-left: -14px;
+    align-items: center;
+    border-radius: 4px;
+    background: #EA2845;
+    z-index: 2;
+    color: #FFF;
+    font-family: Inconsolata;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}

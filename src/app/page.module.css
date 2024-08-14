@@ -1,0 +1,74 @@
+.body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inconsolata", monospace;
+  }
+
+  .main {
+    background: linear-gradient(0deg, rgba(255, 184, 0, 0.20) 0%, rgba(255, 184, 0, 0.20) 100%), #FFF;
+    min-height: 88.7vh;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.fruitWrapper {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    display: flex;
+    padding: 20px 32px;
+    gap: 40px;
+}
+
+/* .body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inconsolata", monospace;
+    overflow: hidden;
+  }
+
+  .main {
+    background: linear-gradient(0deg, rgba(255, 184, 0, 0.20) 0%, rgba(255, 184, 0, 0.20) 100%), #FFF;
+    overflow: hidden;
+    height: 88.8vh;
+    overflow: hidden;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.fruitWrapper {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.wrapper {
+    display: flex;
+    padding: 20px 32px;
+    gap: 40px;
+}
+
+.fruitWrapper {
+    max-height: 80vh;
+    overflow-y: scroll;
+} */
